@@ -1,12 +1,19 @@
 
 ## OOP Fundamentals
 #### Abstraction
+- An abstraction hides the internal implementation details. Typically done with an interface file that has all the key definitions. The class that implements the interface must have each method defined.
+- Example: `class Car implements Honda` where Car is the abstracted class and Honda is the concrete class
 #### Encapsulation
+- Protecting data members and methods in a class. Typically, data members are private and methods like getters and setter are public and allow controlled access to data. Data validation can be implemented in setters to ensure data integrity.
+- Example: `public`, `private`, `protected`, `default`
 #### Inheritance
+- Porcess of one class inheriting properties and methods from another class.
+- Example: `class Car extends Vehicle` where Car inherits properties and methods from Vehicle class. Car can override Vehicle methods. 
 #### Polymorphism
 
+
 ## SOLID Principles
-#### Single Responsibility Principle
+#### Single Responsibility Principle: 
 - Every class, module or function in  a program should have one responsibility/purpose.
 #### Open Close Principle
 - Classes, modules, or functions should be open for extension, but closed for modification. Changes are handled as new methods or new classes.
