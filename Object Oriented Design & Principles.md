@@ -10,10 +10,16 @@
 - Porcess of one class inheriting properties and methods from another class.
 - Example: `class Car extends Vehicle` where Car inherits properties and methods from Vehicle class. Car can override Vehicle methods. 
 #### Polymorphism
-
+- Ability of objects to have multiple forms or to be treated as objects of a common type
+- Compile-time polymorphism:
+  - Method overloading where one or more methods have the same name but different parameters
+  - Operator overloading where you can define custom behaviors for operators such as +, -, or < for user-defined classes
+- Run-time polymorphism (aka late binding or dynamic polymorphism):
+  - Method overriding where a child class can provide a new implementation for a parent class's method.
+  - Virtual methods can be overridden in the child class.
 
 ## SOLID Principles
-#### Single Responsibility Principle: 
+#### Single Responsibility Principle
 - Every class, module or function in  a program should have one responsibility/purpose.
 #### Open Close Principle
 - Classes, modules, or functions should be open for extension, but closed for modification. Changes are handled as new methods or new classes.
